@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthy fit mobile</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>
+            <a href="#" class="link_logo"><span>HEALTHY FIT</span></a>
+        </h1>
+        <div class="topLeft">
+            <button class="gnb_btn">
+                <span class="ico_gnb_menu ico_friends">메뉴</span>
+                <span class="ico_dot">new</span>
+            </button>
+        </div>
+        <div class="topRight">
+            <button>
+                <span class="ico_search ico_friends">검색</span>
+            </button>
+            <button>
+                <span class="ico_notice ico_friends">알림</span>
+            </button>
+        </div>
+        <nav>
+            <ul class="list_tab">
+                <li><a href="#" class="on">Today's</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Pilates</a></li>
+                <li><a href="#">Class</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="article1"> <!-- .today_c -->
+            <div class="today_c">
+                <div class="time_w">
+                    <span class="time_r">Today <strong>|</strong> 누워서 만드는 복근 프로젝트</span>
+                    <span class="time_l"><img src="img/time.png">42분</span>
+                </div>
+                <div class="today_c_head">
+                    <a href="#" class="profile">심으뜸</a>
+                    <div class="info">
+                        <strong>심으뜸</strong>
+                        <span class="txt_sub">#필라테스 #코어강화 #복근운동</span>
+                    </div>
+                </div>
+                <div class="today_c_con">
+                    <img src="img/today_c.jpg" alt="">
+                    <div class="btn"><p>클래스 바로가기</p></div>
+                </div>
+            </div>
+        </article> <!-- .article1 END -->
+        <article class="article2"> <!-- .fitness_c -->
+            <div class="fitness_c">
+                <div class="time_w">
+                    <span class="time_r">Fitness <strong>|</strong> 여름대비 핫바디 프로젝트</span>
+                    <span class="time_l"><img src="img/time.png">50분</span>
+                </div>
+                <div class="fitness_c_head">
+                    <a href="#" class="profile">전태수</a>
+                    <div class="info">
+                        <strong>전태수</strong>
+                        <span class="txt_sub">#피트니스 #전신버닝 #바디프로필</span>
+                    </div>
+                </div>
+                <div class="fitness_c_con">
+                    <img src="img/fitness_c.jpeg" alt="">
+                    <div class="btn"><p>클래스 바로가기</p></div>
+                </div>
+            </div>
+        </article> <!-- .article2 END -->
+        
+        <article class="article3"> <!-- .Pilates_c -->
+            <div class="Pilates_c">
+                <div class="time_w">
+                    <span class="time_r">Fitness <strong>|</strong> 바른자세 프로젝트</span>
+                    <span class="time_l"><img src="img/time.png">38분</span>
+                </div>
+                <div class="Pilates_c_head">
+                    <a href="#" class="profile">서지은</a>
+                    <div class="info">
+                        <strong>서지은</strong>
+                        <span class="txt_sub">#필라테스 #자세교정 #자세미인</span>
+                    </div>
+                </div>
+                <div class="Pilates_c_con">
+                    <img src="img/Pilates_c.jpg" alt="">
+                    <div class="btn"><p>클래스 바로가기</p></div>
+                </div>
+            </div>
+        </article> <!-- .article3 END -->
+    </main>
+</div>
+
+
+<div class="dark"></div>
+
+<div class="gnb_open">
+    <div class="inner">
+        <div class="info_user">
+            <a href="#" class="login log"><u>로그인</u></a>
+            <a href="#" class="link_inquire log">회원가입<span class="ico_friends  ico_arrow_right"></span></a>
+        </div>
+        <a href="#" class="link_banner">
+            <img src="img/banner1.jpg" alt="8월 바디프로필 금액 지원 이벤트">
+        </a>
+        <ul class="list_menu">
+            <li><a href="#" class="btn_menu log">나의 운동기록</a></li>
+            <li class="line"><a href="#" class="btn_menu log">나의 수강목록</a></li>
+            <li><a href="#" class="btn_menu">맞춤 클래스 추천<span class="ico_dot_w">new</span></a></li>
+            <li>
+                <button class="btn_menu btn_teacher">관심 강사
+                    <span class="ico_friends ico_arrow">펼치기</span>
+                </button>
+                <div class="teacherWrap">
+                    <ul class="list_teacher">
+                        <li class="teacher01"><a href="#">
+                            <span class="img_teacher"></span>
+                            <span class="txt_teacher">심으뜸</span>
+                        </a></li>
+                        <li class="teacher02"><a href="#">
+                            <span class="img_teacher"></span>
+                            <span class="txt_teacher">전태수</span>
+                        </a></li>
+                        <li class="teacher03"><a href="#">
+                            <span class="img_teacher"></span>
+                            <span class="txt_teacher">서지은</span>
+                        </a></li>
+                        <li class="teacher04"><a href="#">
+                            <span class="img_teacher"></span>
+                            <span class="txt_teacher">김나현</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="line">
+                <button class="btn_menu btn_class">관심 클래스
+                    <span class="ico_friends ico_arrow">펼치기</span>
+                </button>
+                <!-- 사진 및 내용 정해서 추가 할 것!! 
+                    <div class="classWrap">
+                    <ul class="list_class">
+                        <li class="class01"><a href="#">
+                            <span class="img_class"></span>
+                            <span class="txt_class">심으뜸</span>
+                        </a></li>
+                        <li class="class02"><a href="#">
+                            <span class="img_class"></span>
+                            <span class="txt_class">전태수</span>
+                        </a></li>
+                        <li class="class03"><a href="#">
+                            <span class="img_class"></span>
+                            <span class="txt_class">서지은</span>
+                        </a></li>
+                        <li class="class04"><a href="#">
+                            <span class="img_class"></span>
+                            <span class="txt_class">김나현</span>
+                        </a></li>
+                    </ul>
+                </div> -->
+            </li>
+            <li><a href="#" class="btn_menu"><strong>앱설정</strong></a></li>
+            <li>
+                <button class="btn_menu btn_notice">Push 알림
+                    <input type="checkbox" id="onOffInput">
+                    <label for="onOffInput" class="onOffLabel">
+                    <span class="circleBtn"></span></label>
+                </button>
+            </li>
+            <li>
+                <button class="btn_menu btn_class">기능 제안하기
+                    <span class="ico_friends ico_arrow_r">펼치기</span>
+                </button>
+            </li>
+            <li class="line">
+                <button class="btn_menu btn_class">오류 알려주기
+                    <span class="ico_friends ico_arrow_r">펼치기</span>
+                </button>
+            </li>
+            <li><a href="#" class="btn_menu">공지사항<span class="ico_dot_w">new</span></a></li>
+            <li class="line"><a href="#" class="btn_menu">고객센터</a></li>
+        </ul>
+        <div class="box_banner">
+            <a href="#">
+                <img src="img/bn_addtalk.png" alt="인스타 팔로우">
+            </a>
+        </div>
+        <span class="bottom">v3.12</span>
+    </div>
+</div>
+
+<div class="loginPop">
+    <strong>앗! 로그인</strong>
+    <p>앗! 깜빡, 로그인하고 이용하기 💘️</p>
+    <button><span class="ico_friends ico_talk">카카오톡</span>로그인하기</button>
+</div>
+
+</body>
+</html>
